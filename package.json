@@ -1,0 +1,22 @@
+{
+  "name": "stutzthings-mqtt2kafka",
+  "version": "1.0.0",
+  "description": "Mqtt2Kafka bridge based on Mosca",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stutzlab/stutzthings-mqtt2kafka.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stutzlab/stutzthings-mqtt2kafka/issues"
+  },
+  "homepage": "https://github.com/stutzlab/stutzthings-mqtt2kafka#readme",
+  "dependencies": {
+    "mosca": "^2.8.1"
+  }
+}
