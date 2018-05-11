@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/stutzlab/stutzthings-mqtt2kafka#readme",
   "dependencies": {
+    "kafka-node": "^2.6.1",
     "mosca": "^2.8.1"
   }
 }
