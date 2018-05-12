@@ -32,10 +32,10 @@ var moscaSettings = {
     * avoid publishing to $SYS topics because
     * it violates kafka topic naming convention
     */
-    stats: true,
-    publishNewClient: true,
-    publishClientDisconnect: true,
-    publishSubscriptions: true,
+    stats: false,
+    publishNewClient: false,
+    publishClientDisconnect: false,
+    publishSubscriptions: false,
 
     logger: { name: 'MoscaServer', level: 'debug' },
 
