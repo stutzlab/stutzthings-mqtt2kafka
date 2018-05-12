@@ -1,4 +1,4 @@
-console.log("Starting MQTT Mosca <-> Kafka server...");
+console.log("Starting MQTT Mosca <-> Kafka server....");
 
 var mosca = require('mosca');
 
@@ -39,7 +39,7 @@ var moscaSettings = {
 
     logger: { name: 'MoscaServer', level: 'debug' },
 
-//    persistence: { factory: mosca.persistence.LevelUp, path: "/app/db" },
+   persistence: { factory: mosca.persistence.LevelUp, path: "/levelup-db" },
 
     backend: backend,
 };
